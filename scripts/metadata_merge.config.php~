@@ -1,0 +1,30 @@
+<?php
+
+if(!isset($merge_config)) $merge_config = array();
+
+
+$merge_config[] = array(
+	'module' => 'Project',
+	'sourcefile' => 'editviewdefs.php',
+	'type' => 'metadata',
+	'variable_name' => 'viewdefs',
+	'content' => array(
+				'Project' =>
+				array (
+				  'EditView' => 
+				  array (
+					'templateMeta' => 
+					array (
+					  'form' => 
+					  array (
+						'hidden'=> array(
+								'<input type="hidden" name="copyChildren" value="{$copyChildren}">',
+								),
+							),
+						),
+					),
+				),
+			),
+);
+
+?>

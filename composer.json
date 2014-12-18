@@ -1,0 +1,18 @@
+{
+    "name": "Soulware/ChildTaskManage",
+    "description": "SugarCRM install and uninstall script to modify or extend views with custom code.",
+    "version": "0.9.0",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0", 
+        "soulware/edit-view-on-install": "dev-master",
+        "soulware/edit-metadata-on-install":"dev-master"
+    },
+    
+    "repositories": [
+       {
+        "type": "vcs",
+        "url" :"https://github.com/soulware-ltd/EditMetadataOnInstall.git"
+    }],
+    "minimum-stability":"dev"
+}
