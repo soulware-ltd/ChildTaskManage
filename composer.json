@@ -1,5 +1,5 @@
 {
-    "name": "Soulware/ChildTaskManage",
+    "name": "soulware/child-task-manage",
     "description": "SugarCRM install and uninstall script to modify or extend views with custom code.",
     "version": "0.9.0",
     "license": "MIT",
