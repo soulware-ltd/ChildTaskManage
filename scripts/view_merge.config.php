@@ -9,7 +9,7 @@ $content = '
 	$this->ss->assign("copyChildren", $copyChildren);
         //ChildTaskManage
         ';
-$view_config = new Soulware\EditViewOnInstall\viewMergeConfig('Project','view.edit.php','views','ViewEdit','display','append',$content);
+$view_config = new Soulware\EditViewOnInstall\viewMergeConfig('Project','view.edit.php','views','ViewEdit','display','prepend',$content);
 $view_merge_configs[]=$view_config;
 
 
